@@ -23,7 +23,7 @@ export default function Page({}: PageProps) {
           company={'Castrol'}
           status={Status.Pending}
           promotion={true}
-          country="Kyiv"
+          country="Ukraine"
           joinedDate="15.03.2012"
         />
       </CompanyTable>

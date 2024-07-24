@@ -7,7 +7,7 @@ export interface ButtonProps
   disabled?: boolean;
 }
 
-export function Button({ disabled, ...rest }: ButtonProps) {
+export default function Button({ disabled, ...rest }: ButtonProps) {
   return (
     <button
       {...rest}
@@ -16,9 +16,6 @@ export function Button({ disabled, ...rest }: ButtonProps) {
         !disabled && 'hover:bg-gray-800 active:bg-gray-950',
         disabled && 'text-zinc-100',
       )}
-    >
-      {' '}
-      ADD COMPANY
-    </button>
+    ></button>
   );
 }

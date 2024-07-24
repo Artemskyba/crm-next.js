@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Form, Formik } from 'formik';
-import { Button } from './button';
+import Button from './button';
 import { InputField } from './input';
 import LogoUploader from '@/app/components/logo-uploader';
 
