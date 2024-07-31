@@ -26,7 +26,7 @@ export default function Sidebar({}: SidebarProps) {
         />
         <ul className="space-y-7">
           <SidebarItem
-            current={pathname === '/dashboard'}
+            current={pathname.startsWith('/dashboard')}
             pathname="/dashboard"
             src="/icons/squares.svg"
             alt="dashboard icon"

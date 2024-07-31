@@ -14,7 +14,7 @@ export default function ErrorMaker(props: ButtonProps) {
 
   return (
     <div className="ml-10">
-      <div>{count}</div>
+      <p>{count}</p>
       <Button {...props} onClick={() => setCount(count + 1)}>
         Click me!
       </Button>
